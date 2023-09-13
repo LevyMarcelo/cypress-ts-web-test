@@ -2,7 +2,7 @@
 
 ## Language, framework and code editor:
 * TypeScript
-* Cypress (version 13.2.0)
+* Cypress (version 13.1.0)
 * Visual Studio Code
 
 ## Project execution:

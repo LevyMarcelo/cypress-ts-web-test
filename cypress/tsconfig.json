@@ -2,13 +2,16 @@
   "$schema": "https://json.schemastore.org/tsconfig",
   "extends": "@tsconfig/node-lts-strictest-esm/tsconfig.json",
     "compilerOptions": {
+      "esModuleInterop": true,
+      "moduleResolution": "node",
       "target": "es5",
       "lib": ["es5", "dom"],
       "types": ["cypress", "node"]
     },
     "include": ["**/*.ts"],   
+    "exclude": ["node_modules"],
     "ts-node": {
-      "esm": true, // «———— enabling ESM for ts-node   
-  }, 
+      "esm": true
   }
+}
   
